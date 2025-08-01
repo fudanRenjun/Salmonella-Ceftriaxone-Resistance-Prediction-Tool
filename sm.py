@@ -150,14 +150,14 @@ if st.button("Predict"):
     ax2.axvline(0, color='gray', linewidth=0.8, linestyle='--')  # 添加0刻度线
     st.pyplot(fig2)
 
-# footer# footer
 st.markdown("---")
-st.markdown(""""
+st.markdown("""
 &copy; 2025  
 Microbiology Lab, Eye & ENT Hospital, Fudan University  
-Microbiology Lab, Children's Hospital, Zhejiang University
-Microbiology Lab, Wanbei Coal Electric Group General Hospital
-"""")
+Microbiology Lab, Children's Hospital, Zhejiang University  
+Microbiology Lab, Wanbei Coal Electric Group General Hospital  
+""")
+
 
 
 
