@@ -3,6 +3,7 @@ import joblib
 import pandas as pd
 import matplotlib.pyplot as plt
 import shap
+import xgboost as xgb
 
 # page configuration
 st.set_page_config(
