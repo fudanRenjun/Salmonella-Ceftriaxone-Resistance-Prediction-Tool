@@ -156,6 +156,7 @@ st.markdown("""
 &copy; 2025  
 Microbiology Lab, Eye & ENT Hospital, Fudan University  
 Microbiology Lab, Children's Hospital, Zhejiang University
+Microbiology Lab, Wanbei Coal Electric Group General Hospital
 """)
 
 
