@@ -14,9 +14,9 @@ st.set_page_config(
 # load models
 @st.cache_resource
 def load_models():
-    model_c1 = joblib.load(r'E:/RS/sm/耐药性分析/文章图/特征递减/C1/5/C1-5.pkl')
-    model_e1 = joblib.load(r'E:/RS/sm/耐药性分析/文章图/特征递减/E1/20/E1-20.pkl')
-    model_st = joblib.load(r'E:/RS/sm/耐药性分析/文章图/特征递减/鼠伤寒/20/鼠伤寒-14.pkl')
+    model_c1 = joblib.load(r'C1-5.pkl')
+    model_e1 = joblib.load(r'E1-20.pkl')
+    model_st = joblib.load(r'鼠伤寒-14.pkl')
     return model_c1, model_e1, model_st
 
 model1, model2, model3 = load_models()
